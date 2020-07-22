@@ -1,0 +1,225 @@
+*{
+	margin:0;
+	padding: 0;
+	font-family: all;
+}
+
+div#nav div.nav_left img{
+	width: 60px;
+	height: 60px;
+	vertical-align: bottom;
+}
+div#nav div.nav_left h1{
+	font-family: logo;
+	display: inline-block;
+	margin: 0 10px;
+	vertical-align: bottom;
+}
+div#nav div.nav_left{
+	float: left;
+}
+div#nav div.nav_right{
+	float: right;
+	margin-top: 20px;
+}
+div.nav_right a{
+	text-align: center;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 14px 20px;
+	color: black;
+}
+a.active{
+	/*!important=want to use this color*/
+	color: #fff !important;
+	background-color: #080808;
+	border-radius: 15px 0px 15px 0px;
+}
+.clear{
+	clear: both;
+}
+
+div#banner img{
+	width: 100%;
+	height: 600px;
+	object-fit: cover;
+}
+div#banner i{
+	font-size: 130px;
+	color: #ddaa20;
+	position: absolute;
+	top: 30%;
+	left: 40%;
+}
+div.quote{
+	font-family: Unicode;
+	background-color: rgba(255,255,255,0.5);
+	font-size: 30px;
+	position: absolute;
+	top: 50%;
+	left: 5%;
+	padding: 30px;
+}
+
+h2{
+	text-align: center;
+	font-size: 30px;
+	color: #ddaa20;
+	border-bottom: 2px solid gray;
+	width: 50%;
+	margin: auto;
+}
+h3{
+	font-family: logo;
+	font-size: 20px;
+	display: inline-block;
+	margin: 0 10px;
+	vertical-align: bottom;
+}
+h5{
+	text-align: left;
+}
+p{
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 50px;
+	padding-right: 50px;
+	font-size: 18px;
+}
+
+div#gridOffer,
+div#gridShop,
+div#gridSpecial,
+div#gridMenu{
+	margin:90px; 
+	padding: 50px;
+	/*background-color: pink;*/
+}
+div#gridOffer div.gridTwo,
+div#gridShop div.shopImage,
+div#gridSpecial div.special,
+div#gridMenu div.menu
+{
+	/*border: 1px solid #bbb;*/
+	padding: 20px;
+	font-size: 20px;
+	text-align: center;
+	color: black;
+}
+div#gridOffer div.gridTwo{
+	padding: 10px;
+	grid-gap: 50px 50px;
+			/*row column*/
+}
+
+div#gridOffer div.gridTwo,
+div#gridShop div.shopImage
+{
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
+
+div.shopAbout{
+	text-align: left;
+}
+div.shopAbout div.who,
+div.shopAbout div.why{
+	padding: 20px;
+	font-size: 15px;
+}
+div.shopImage div.image{
+	
+	margin-right: 100px;
+	width: 300px;
+	height: 270px;
+	/*background-color: red;*/
+}
+
+div.shopImage img{
+	width: 100%;
+	height:270px;
+	object-fit: cover;
+}
+
+div#gridMenu div.menu{
+	display: grid;
+	grid-template-columns: auto auto;
+
+}
+div.menu{
+	grid-row-gap: 30px;
+}
+div.menu img
+{
+	width: 50%;
+	height: 300px;
+	object-fit: cover;
+}
+
+div#gridSpecial div.special div{
+	/*border: 1px solid red;*/
+	padding: 10px;
+}
+
+div.special{
+	/*background-color: silver;*/
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-column-gap: 40px;
+	grid-row-gap: 10px;
+	width: 900px;
+	height: 310px;
+
+}
+div.special div.one{
+	grid-row-start: 1;
+	grid-row-end: 3;
+}
+div.special img{
+	width: 100%;
+	height:150px;
+	object-fit: cover;
+}
+div.special div.one img{
+	width: 100%;
+	height: 300px;
+	flex: 1;
+}
+div.special div.two{
+	grid-column-start: 2;
+	grid-column-end: 4;
+}
+
+div.special div.two img
+{
+	width: 300px;
+	height: 170px;
+	flex:1;
+}
+div.special div.three img,
+div.special div.four img
+{
+	width: 100px;
+	height: 100px;
+	flex: 1;
+}
+
+footer{
+	background-color: black;
+	color: white;
+	height:25px;
+	margin-top: 5px;
+	padding: 20px; 
+	border: 1px solid #ccc;
+}
+footer .float_left{
+	float: left;
+}
+footer .float_right{
+	float: right;
+}
+
+ol li{
+	text-align: left;
+}
